@@ -11,7 +11,7 @@ let obstacles=[];
 let gameSpeed;
 let key = {};
 let backgroundImage = new Image();
-backgroundImage.src = 'images/background.jpg'; // Đường dẫn đến hình ảnh nền
+backgroundImage.src = 'background.jpg'; // Đường dẫn đến hình ảnh nền
 
 
 
@@ -32,7 +32,7 @@ document.addEventListener('keyup',function (evt){
          this.h = h;
          this.color = color;
          this.image = new Image(); // Tạo đối tượng Image
-         this.image.src = 'images/player2.png'; // Đường dẫn đến hình ảnh của nhân vật
+         this.image.src = 'player2.png'; // Đường dẫn đến hình ảnh của nhân vật
          this.image.onload = () => {
             this.imageLoaded = true;
             this.removeBackground();
@@ -125,7 +125,7 @@ document.addEventListener('keyup',function (evt){
         this.h=h
         this.color=color
         this.image = new Image(); // Tạo đối tượng Image
-        this.image.src = 'images/boom2.png'; // Đường dẫn đến hình ảnh của nhân vật
+        this.image.src = 'boom2.png'; // Đường dẫn đến hình ảnh của nhân vật
         this.image.onload = () => {
             this.imageLoaded = true;
             this.removeBackground();
